@@ -1,0 +1,18 @@
+ *** ZZT:Watch ***
+File: D:\ZZT\Watch_ZAKUCA1A-ZAKUCA1A_027.log
+Computer: INEM1332-NB; User: anto.maric
+Connection: Telnet 192.168.0.11:23
+Target: D105OSCZ; Application: ZAKUCA1A-ZAKUCA1A
+Start time: 21.2.2025. 12:23:01
+
+Signals:  7
+ 1.     Q2IN log16
+ 2.     Q1IN log16
+ 3. ACKQ0OF0 log16
+ 4.  ACKQ0OF log16
+ 5. VAUXACTP int16
+ 6.   VAUXP1 Undef
+ 7.  INVERTP Undef
+
+Data:
+*** End ***
