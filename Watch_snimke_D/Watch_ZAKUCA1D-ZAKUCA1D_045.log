@@ -1,0 +1,27 @@
+ *** ZZT:Watch ***
+File: D:\ZZT\Watch_ZAKUCA1D-ZAKUCA1D_045.log
+Computer: INEM1332-NB; User: anto.maric
+Connection: Telnet 172.17.4.149:23
+Target: D105OSCZ; Application: ZAKUCA1D-ZAKUCA1D
+Start time: 05.03.2025. 14:34:21
+
+Signals: 16
+ 1.    VHACT int16
+ 2.    VHREF int16
+ 3.    QACTH int16
+ 4.    QHREF int16
+ 5.    PACTH int16
+ 6.    VGACT int16
+ 7.    VGREF int16
+ 8.     QACT int16
+ 9.    IFACT int16
+10.    UFACT int16
+11.    VRINC log16
+12.    VRDEC log16
+13.    QHINC log16
+14.    QHDEC log16
+15.    VHINC log16
+16.    VHDEC log16
+
+Data:
+*** End ***

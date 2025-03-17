@@ -1,0 +1,29 @@
+theme: jekyll-theme-slate
+title: Obrada dostavljenih podataka - UQ regulacija na sučelju u HE Zakučac
+description:  
+remote_theme: pages-themes/slate@v0.2.0
+plugins:
+- jekyll-remote-theme
+include:
+  - assets/css
+collections:
+  pages:
+    output: true        # Makes pages render as actual output
+    permalink: /:name/  # Creates clean URLs based on file names
+header_sections:
+  - label: "Agregat A"
+    links:
+      - title: "KONČAR PROCIS"
+        url: "/cs-koncar-ket/"
+        class: "green-link"        
+      - title: "INEM"
+        url: "/cs-uzbuda/"
+        class: "green-link"
+  - label: "Agregat D"
+    links:
+      - title: "KONČAR PROCIS"
+        url: "/or-koncar-ket/"
+        class: "green-link"
+      - title: "INEM"
+        url: "/or-uzbuda/"
+        class: "green-link"

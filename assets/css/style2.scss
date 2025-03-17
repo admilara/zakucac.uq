@@ -1,0 +1,53 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+html body .site {
+    max-width: 100% !important;
+    padding: 0 20px;
+}
+
+html body .page-content {
+    max-width: 100% !important;
+    margin: 0 auto;
+}
+
+iframe {
+    width: 100% !important;
+    height: 800px !important;
+    border: none;
+}
+
+img, video {
+    max-width: 100% !important;
+    height: 800px !important;
+}
+
+html body .site,
+html body .page-content,
+html body .inner,
+html body #main_content,
+html body #main_content_wrap {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 992px) {
+    html body .site,
+    html body .page-content,
+    html body .inner {
+        max-width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html body .site,
+    html body .page-content,
+    html body .inner {
+        max-width: 100% !important;
+    }
+}
