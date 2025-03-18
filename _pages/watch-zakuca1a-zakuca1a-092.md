@@ -35,8 +35,8 @@ table {
 | **COSHREF** | [pu] | Referenca faktora snage na sučelju |
 | **IFACT** | [A] | Struja uzbude |
 | **UFACT** | [V] | Napon uzbude |
-| **COSHINC** | [log16] | Nalog za povećanje cosphi na sučelju (binarni signal) |
 | **IGACT** | [A] | Struja generatora |
+| **COSHINC** | [log16] | Nalog za povećanje cosphi na sučelju (binarni signal) |
 
 {% endraw %}
 

@@ -513,7 +513,7 @@ for file in files:
 
     # Filter from `signali` based on what was extracted from the log
     binary_signals = {k: v for k, v in signali.items() if k in extracted_signal_names 
-                      and v['intbase'] == 1.0 and v['baseval'] == 1.0 and v['unit'] == 'pu'}
+                      and v['intbase'] == 1.0 and v['baseval'] == 1.0 and v['unit'] == 'log16'}
 
     int_signals = {k: v for k, v in signali.items() if k in extracted_signal_names and k not in binary_signals}    
 

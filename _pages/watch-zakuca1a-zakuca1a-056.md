@@ -25,9 +25,9 @@ table {
 | **QACTH** | [Mvar] | Jalova snaga na sučelju |
 | **QHREFC** | [%] | Jedan od signala za formiranje reference QHREF |
 | **QHREFCM** | [%] | Jedan od signala za formiranje reference QHREF |
+| **VHACT** | [kV] | Napon na sučelju |
 | **ACQHCOF** | [log16] | Potvrda o isključenom Q regulatoru na VN strani (binarni signal) |
 | **ACQHCON** | [log16] | Potvrda o isključenom Q regulatoru na VN strani (binarni signal) |
-| **VHACT** | [kV] | Napon na sučelju |
 
 {% endraw %}
 
