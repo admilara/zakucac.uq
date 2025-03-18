@@ -22,7 +22,6 @@ snimani su Watch zapisi iz sustava uzbude. Pokus na agregatu A napravljen je 21.
             <th style="text-align:center; font-family: Helvetica">Zapis</th>
             <th style="text-align:center; font-family: Helvetica">Početak</th>
             <th style="text-align:center; font-family: Helvetica">Kraj</th>
-            <th style="text-align:center; font-family: Helvetica">Napomena</th>
         </tr>
     </thead>
     <tbody>

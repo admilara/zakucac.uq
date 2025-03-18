@@ -632,6 +632,11 @@ for file in files:
     #    ])
     signals_md = (
         "{% raw %}\n\n"
+        "<style scoped>\n"
+        "table {\n"
+        "  font-size: 13px;\n"
+        "}\n"
+        "</style>\n"
         "| Signal | Jedinica | Opis |\n"
         "|--------|----------|------|\n"
         + "\n".join([

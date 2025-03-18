@@ -15,6 +15,11 @@ Sve veličine su preuzete iz dostavljene log datoteke `watch-zakuca1a-zakuca1a-0
 Prikazane veličine su:
 {% raw %}
 
+<style scoped>
+table {
+  font-size: 13px;
+}
+</style>
 | Signal | Jedinica | Opis |
 |--------|----------|------|
 | **VGACT** | [kV] | Napon generatora |
