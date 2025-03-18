@@ -612,8 +612,8 @@ for file in files:
         </body>
     </html>
     """
-    
-    with open(f"{savepath}\\{file_name.lower().replace('_', '-')}.html", "w") as file:
+    output_file = os.path.join(savepath, f"{file_name.lower().replace('_', '-')}.html")
+    with open(output_file, "w") as file:
         file.write(html_content)
 
 
@@ -621,15 +621,27 @@ for file in files:
     #   GENERIRANJE MARKDOWN DATOTEKE ZA SVAKI LOG I HTML
     # =============================================================================
     #signals_md = "\n".join([f"    - {sig}" for sig in signals_for_md])  # Format as bullet points with indentation
-    signals_md = "\n".join([
-    f"    - {signali[sig].get('desc', signali[sig]['longtxt'])}" if sig in signali else f"    - {sig}" 
-    for sig in signals_for_md
-    ])
-    signals_md = "| Signal | Jedinica | Opis |\n|---|---|---|\n" + "\n".join([
-        f"| **{sig}** | [{signali[sig]['unit']}] | {signali[sig]['desc']} |" 
-        if sig in signali else f"| **{sig}** | - | - |" 
+    #signals_md = "\n".join([
+    #f"    - {signali[sig].get('desc', signali[sig]['longtxt'])}" if sig in signali else f"    - {sig}" 
+    #for sig in signals_for_md
+    #])
+    #signals_md = "\n\n| Signal | Jedinica | Opis |\n|---|---|---|\n" + "\n".join([
+    #    f"| **{sig}** | [{signali[sig]['unit']}] | {signali[sig]['desc']} |" 
+    #    if sig in signali else f"| **{sig}** | - | - |" 
+    #    for sig in signals_for_md
+    #    ])
+    signals_md = (
+        "{% raw %}\n\n"
+        "| Signal | Jedinica | Opis |\n"
+        "|--------|----------|------|\n"
+        + "\n".join([
+        f"| **{sig}** | [{signali[sig]['unit']}] | {signali[sig]['desc']} |"
+        if sig in signali else f"| **{sig}** | - | - |"
         for sig in signals_for_md
         ])
+        + "\n\n{% endraw %}"
+        )
+    
     
     number = file_name[-3:]
     html_file_name = (file_name+".html").lower().replace("_", "-")

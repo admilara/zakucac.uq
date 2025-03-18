@@ -13,8 +13,10 @@ Na grafovima niže prikazani su zapisi veličina dostavljeni od strane Končar I
 Sve veličine su preuzete iz dostavljene log datoteke `watch-zakuca1a-zakuca1a-082.log`.
                                
 Prikazane veličine su:
+{% raw %}
+
 | Signal | Jedinica | Opis |
-|---|---|---|
+|--------|----------|------|
 | **VGACT** | [kV] | Napon generatora |
 | **PACT** | [MW] | Radna snaga generatora |
 | **QACT** | [Mvar] | Jalova snaga generatora |
@@ -31,6 +33,8 @@ Prikazane veličine su:
 | **VHINC** | [log16] | Nalog za povećanje reference U na VN (binarni signal) |
 | **VHDEC** | [log16] | Nalog za smanjenje reference U na VN (binarni signal) |
 | **QHENABLE** | [log16] | Uključena regulacija Q na sučelju (binarni signal) |
+
+{% endraw %}
 
 <div class="wide-graph">
     <iframe src="{{ site.baseurl }}/watch-htmls-a/watch-zakuca1a-zakuca1a-082.html" width="100%" height="800px" frameborder="0"></iframe>
