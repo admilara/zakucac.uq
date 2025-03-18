@@ -13,13 +13,15 @@ Na grafovima niže prikazani su zapisi veličina dostavljeni od strane Končar I
 Sve veličine su preuzete iz dostavljene log datoteke `watch-zakuca1a-zakuca1a-056.log`.
                                
 Prikazane veličine su:
-    - QACTH [Mvar] - Jalova snaga na sučelju
-    - QHREFC - jedan od signala za formiranje reference QHREF
-    - QHREFCM - jedan od signala za formiranje reference QHREF
-    - VHACT [kV] - Napon na sučelju
-    - ACQHCOF - Potvrda o isključenom Q regulatoru na VN strani (binarni signal)
-    - ACQHCOF - Potvrda o isključenom Q regulatoru na VN strani (binarni signal)
+| Signal | Jedinica | Opis |
+|---|---|---|
+| **QACTH** | [Mvar] | Jalova snaga na sučelju |
+| **QHREFC** | [%] | Jedan od signala za formiranje reference QHREF |
+| **QHREFCM** | [%] | Jedan od signala za formiranje reference QHREF |
+| **ACQHCOF** | [log16] | Potvrda o isključenom Q regulatoru na VN strani (binarni signal) |
+| **ACQHCON** | [log16] | Potvrda o isključenom Q regulatoru na VN strani (binarni signal) |
+| **VHACT** | [kV] | Napon na sučelju |
 
 <div class="wide-graph">
-    <iframe src="{{ site.baseurl }}/watch-htmls-a/Watch_ZAKUCA1A-ZAKUCA1A_056.html" width="100%" height="800px" frameborder="0"></iframe>
+    <iframe src="{{ site.baseurl }}/watch-htmls-a/watch-zakuca1a-zakuca1a-056.html" width="100%" height="800px" frameborder="0"></iframe>
 </div>

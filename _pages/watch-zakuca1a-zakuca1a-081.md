@@ -13,23 +13,25 @@ Na grafovima niže prikazani su zapisi veličina dostavljeni od strane Končar I
 Sve veličine su preuzete iz dostavljene log datoteke `watch-zakuca1a-zakuca1a-081.log`.
                                
 Prikazane veličine su:
-    - VGACT [kV] - Napon generatora
-    - PACT [MW] - Radna snaga generatora
-    - QACT [Mvar] - Jalova snaga generatora
-    - VGREF [kV] - Referenca napona na generatoru
-    - PACTH [MW] - Radna snaga na sučelju
-    - QACTH [Mvar] - Jalova snaga na sučelju
-    - QHREF [Mvar] - Referenca jalove snage na sučelju
-    - VHACT [kV] - Napon na sučelju
-    - VHREF [kV] - Referenca napona na sučelju
-    - COSPHIH - Faktor snage na sučelju
-    - COSHREF - Referenca faktora snage na sučelju
-    - IFACT [A] - Struja uzbude
-    - UFACT [V] - Napon uzbude
-    - VHINC - Nalog za povećanje reference U na VN (binarni signal)
-    - VHDEC - Nalog za smanjenje reference U na VN (binarni signal)
-    - QHENABLE - Uključena regulacija Q na sučelju (binarni signal)
+| Signal | Jedinica | Opis |
+|---|---|---|
+| **VGACT** | [kV] | Napon generatora |
+| **PACT** | [MW] | Radna snaga generatora |
+| **QACT** | [Mvar] | Jalova snaga generatora |
+| **VGREF** | [pu] | Referenca napona na generatoru |
+| **PACTH** | [MW] | Radna snaga na sučelju |
+| **QACTH** | [Mvar] | Jalova snaga na sučelju |
+| **QHREF** | [Mvar] | Referenca jalove snage na sučelju |
+| **VHACT** | [kV] | Napon na sučelju |
+| **VHREF** | [kV] | Referenca napona na sučelju |
+| **COSPHIH** | [pu] | Faktor snage na sučelju |
+| **COSHREF** | [pu] | Referenca faktora snage na sučelju |
+| **IFACT** | [A] | Struja uzbude |
+| **UFACT** | [V] | Napon uzbude |
+| **VHINC** | [log16] | Nalog za povećanje reference U na VN (binarni signal) |
+| **VHDEC** | [log16] | Nalog za smanjenje reference U na VN (binarni signal) |
+| **QHENABLE** | [log16] | Uključena regulacija Q na sučelju (binarni signal) |
 
 <div class="wide-graph">
-    <iframe src="{{ site.baseurl }}/watch-htmls-a/Watch_ZAKUCA1A-ZAKUCA1A_081.html" width="100%" height="800px" frameborder="0"></iframe>
+    <iframe src="{{ site.baseurl }}/watch-htmls-a/watch-zakuca1a-zakuca1a-081.html" width="100%" height="800px" frameborder="0"></iframe>
 </div>

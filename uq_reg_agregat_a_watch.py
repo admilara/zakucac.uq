@@ -205,168 +205,168 @@ signali = {
         'unit': 'kV',
         'label': 'VGACTINV',
         'longtxt': 'Napon generatora',
-        'desc': "VGACTINV [kV] - Stvarni napon generatora (inverz)"},
+        'desc': "Stvarni napon generatora (inverz)"},
     'PACT': {
         'intbase': 23405,
         'baseval': 160.0,
         'unit': 'MW',
         'label': 'PACT',
         'longtxt': 'Radna snaga generatora',
-        'desc': 'PACT [MW] - Radna snaga generatora'},
+        'desc': 'Radna snaga generatora'},
     'QACT': {
         'intbase': 23405,
         'baseval': 160.0,
         'unit': 'Mvar',
         'label': 'QACT',
         'longtxt': 'Jalova snaga generatora',
-        'desc': 'QACT [Mvar] - Jalova snaga generatora'},
+        'desc': 'Jalova snaga generatora'},
     'VGACT': {
         'intbase': -23405,
         'baseval': 16.0,
         'unit': 'kV',
         'label': 'VGACT',
         'longtxt': 'Napon generatora',
-        'desc': 'VGACT [kV] - Napon generatora'},
+        'desc': 'Napon generatora'},
     'VGREF': {
         'intbase': 23405,
         'baseval': 1.0,
         'unit': 'pu',
         'label': 'VGREF',
         'longtxt': 'Referenca Ug',
-        'desc': 'VGREF [kV] - Referenca napona na generatoru'},
+        'desc': 'Referenca napona na generatoru'},
     'PACTH': {
         'intbase': 23405,
         'baseval': 160.0,
         'unit': 'MW',
         'label': 'PACTH',
         'longtxt': 'Radna snaga - VN mjerenje',
-        'desc': 'PACTH [MW] - Radna snaga na sučelju'},
+        'desc': 'Radna snaga na sučelju'},
     'QACTH': {
         'intbase': 23405,
         'baseval': 160.0,
         'unit': 'Mvar',
         'label': 'QACTH',
         'longtxt': 'Jalova snaga - VN mjerenje',
-        'desc': 'QACTH [Mvar] - Jalova snaga na sučelju'},
+        'desc': 'Jalova snaga na sučelju'},
     'QHREF': {
         'intbase': 23405,
         'baseval': 160.0,
         'unit': 'Mvar',
         'label': 'QHREF',
         'longtxt': 'Jalova snaga - VN referenca',
-        'desc': 'QHREF [Mvar] - Referenca jalove snage na sučelju'},
+        'desc': 'Referenca jalove snage na sučelju'},
     'VHACT': {
         'intbase': -23405,
         'baseval': 121.0,
         'unit': 'kV',
         'label': 'VHACT',
         'longtxt': 'Napon - VN mjerenje',
-        'desc': 'VHACT [kV] - Napon na sučelju'},
+        'desc': 'Napon na sučelju'},
     'VHREF': {
         'intbase': 23405,
         'baseval': 121.0,
         'unit': 'kV',
         'label': 'VHREF',
         'longtxt': 'Napon - VN referenca',
-        'desc': 'VHREF [kV] - Referenca napona na sučelju'},
+        'desc': 'Referenca napona na sučelju'},
     'IGACTINV': {
         'intbase': 16384,
         'baseval': 5774.0,
         'unit': 'A',
         'label': 'IGACTINV',
         'longtxt': 'Struja generatora',
-        'desc': 'IGACTINV [A] - Struja generatora (inverz)'},
+        'desc': 'Struja generatora (inverz)'},
     'IGACT': {
         'intbase': 16384,
         'baseval': 5774.0,
         'unit': 'A',
         'label': 'IGACT',
         'longtxt': 'Struja generatora',
-        'desc': 'IGACT [A] - Struja generatora'},
+        'desc': 'Struja generatora'},
     'UFACT': {
         'intbase': 4096,
         'baseval': 74.0,
         'unit': 'V',
         'label': 'UFACT',
         'longtxt': 'Napon uzbude',
-        'desc': 'UFACT [V] - Napon uzbude'},
+        'desc': 'Napon uzbude'},
     'IFACT': {
         'intbase': 4096,
         'baseval': 725.0,
         'unit': 'A',
         'label': 'IFACT',
         'longtxt': 'Struja uzbude',
-        'desc': 'IFACT [A] - Struja uzbude'},
+        'desc': 'Struja uzbude'},
     'QHINC' : {
         'intbase': 1.0,
         'baseval': 1.0,
-        'unit': 'pu',
+        'unit': 'log16',
         'label': 'Qref VIŠE',
         'longtxt': 'Impuls Qref više - VN',
-        'desc': 'QHINC - Nalog za povećanje reference Q na VN (binarni signal)'},
+        'desc': 'Nalog za povećanje reference Q na VN (binarni signal)'},
     'QHDEC': {
         'intbase': 1.0,
         'baseval': 1.0,
-        'unit': 'pu',
+        'unit': 'log16',
         'label': 'Qref NIŽE',
         'longtxt': 'Impuls Qref niže - VN',
-        'desc': 'QHDEC - Nalog za snižavanje reference Q na VN (binarni signal)'},
+        'desc': 'Nalog za snižavanje reference Q na VN (binarni signal)'},
     'VHDEC': {
         'intbase': 1.0,
         'baseval': 1.0,
-        'unit': 'pu',
+        'unit': 'log16',
         'label': 'Vref NIŽE',
         'longtxt': 'Impuls Vref niže - VN',
-        'desc': 'VHDEC - Nalog za smanjenje reference U na VN (binarni signal)'},
+        'desc': 'Nalog za smanjenje reference U na VN (binarni signal)'},
     'VHINC': {
         'intbase': 1.0,
         'baseval': 1.0,
-        'unit': 'pu',
+        'unit': 'log16',
         'label': 'Vref VIŠE',
         'longtxt': 'Impuls Vref više - VN',
-        'desc': 'VHINC - Nalog za povećanje reference U na VN (binarni signal)'},
+        'desc': 'Nalog za povećanje reference U na VN (binarni signal)'},
     'COSPHIH': {
         'intbase': 100.0,
         'baseval': 1.0,
         'unit': 'pu',
         'label': 'cosphi - VN',
         'longtxt': 'cosphi - VN',
-        'desc': 'COSPHIH - Faktor snage na sučelju'},
+        'desc': 'Faktor snage na sučelju'},
     'COSHREF': {
         'intbase': 100.0,
         'baseval': 1.0,
         'unit': 'pu',
         'label': 'cosphi ref - VN',
         'longtxt': 'cosphi - VN referenca',
-        'desc': 'COSHREF - Referenca faktora snage na sučelju'},
+        'desc': 'Referenca faktora snage na sučelju'},
     'OEXLIMON': {
         'intbase': 1.0,
         'baseval': 1.0,
-        'unit': 'pu',
+        'unit': 'log16',
         'label': 'OEXLIMON',
         'longtxt': 'Overexcitation limiter ON',
-        'desc': 'QEXLIMON - Aktivan limiter u naduzbudi (binarni signal)'},
+        'desc': 'Aktivan limiter u naduzbudi (binarni signal)'},
     'QACTHMAX': {
         'intbase': 1.0,
         'baseval': 1.0,
-        'unit': 'pu',
+        'unit': 'log16',
         'label': 'QACTHMAX',
         'longtxt': 'Max granica Q (VN)',
-        'desc': 'QACTHMAX - granica maksimalne jalove snage na VN dosegnuta (binarni signal)'},
+        'desc': 'Granica maksimalne jalove snage na VN dosegnuta (binarni signal)'},
     'QHREFCM': {
         'intbase': 23405,
         'baseval': 100.0,
         'unit': '%',
         'label': 'QHREFCM',
         'longtxt': 'QHREFCM',
-        'desc': 'QHREFCM - jedan od signala za formiranje reference QHREF'},
+        'desc': 'Jedan od signala za formiranje reference QHREF'},
     'QHREFC': {
         'intbase': 23405,
         'baseval': 100.0,
         'unit': '%',
         'label': 'QHREFC',
         'longtxt': 'QHREFC',
-        'desc': 'QHREFC - jedan od signala za formiranje reference QHREF'},
+        'desc': 'Jedan od signala za formiranje reference QHREF'},
     'PACTHI': {
         'intbase': 23405,
         'baseval': 160.0,
@@ -380,55 +380,49 @@ signali = {
         'unit': 'Mvar',
         'label': 'QACTHI',
         'longtxt': 'Jalova snaga (VN) I',
-        'desc': 'QACTHI [Mvar] - Jalova snaga na sučelju (inverz)'},
+        'desc': 'Jalova snaga na sučelju (inverz)'},
     'ACQHCOF': {
         'intbase': 1.0,
         'baseval': 1.0,
-        'unit': 'pu',
+        'unit': 'log16',
         'label': 'ACQHCOF',
         'longtxt': 'Potvrda o iskljucenom Q regulatoru na VN strani', 
-        'desc': 'ACQHCOF - Potvrda o isključenom Q regulatoru na VN strani (binarni signal)'},
+        'desc': 'Potvrda o isključenom Q regulatoru na VN strani (binarni signal)'},
     'ACQHCON': {
         'intbase': 1.0,
         'baseval': 1.0,
-        'unit': 'pu',
+        'unit': 'log16',
         'label': 'ACQHCON',
         'longtxt': 'Potvrda o ukljucenom Q regulatoru na VN strani',
-        'desc': 'ACQHCOF - Potvrda o isključenom Q regulatoru na VN strani (binarni signal)'},
-    'ACKQ0OF0': {
-        'intbase': 1.0,
-        'baseval': 1.0,
-        'unit': 'pu',
-        'label': 'ACKQ0OF0',
-        'longtxt': 'Potvrda Q0 off ?'},
+        'desc': 'Potvrda o isključenom Q regulatoru na VN strani (binarni signal)'},
     'VHCTRON': {
         'intbase': 1.0,
         'baseval': 1.0,
-        'unit': 'pu',
+        'unit': 'log16',
         'label': 'VHCTRON',
         'longtxt': 'U (VN) control - ON',
-        'desc': 'VHCTRON - Uključena regulacija U na sučelju (binarni signal)'},
+        'desc': 'Uključena regulacija U na sučelju (binarni signal)'},
     'QHENABLE': {
         'intbase': 1.0,
         'baseval': 1.0,
-        'unit': 'pu',
+        'unit': 'log16',
         'label': 'QHENABLE',
         'longtxt': 'Ukljucenje Q regulatora (VN)',
-        'desc': 'QHENABLE - Uključena regulacija Q na sučelju (binarni signal)'},
+        'desc': 'Uključena regulacija Q na sučelju (binarni signal)'},
     'COSHINC': {
         'intbase': 1.0,
         'baseval': 1.0,
-        'unit': 'pu',
+        'unit': 'log16',
         'label': 'cosphi (VN) VIŠE',
         'longtxt': 'Povećanje cosphi (VN)',
-        'desc': 'COSHINC - Nalog za povećanje cosphi na sučelju'},
+        'desc': 'Nalog za povećanje cosphi na sučelju (binarni signal)'},
     'COSHDEC': {
         'intbase': 1.0,
         'baseval': 1.0,
-        'unit': 'pu',
+        'unit': 'log16',
         'label': 'cosphi (VN) NIŽE',
         'longtxt': 'Smanjenje cosphi (VN)',
-        'desc': 'COSHDEC - Nalog za smanjenje cosphi na sučelju'}
+        'desc': 'Nalog za smanjenje cosphi na sučelju (binarni signal)'}
     }
 
 
@@ -451,7 +445,7 @@ Prikazane veličine su:
 {signals_list}
 
 <div class="wide-graph">
-    <iframe src="{{{{ site.baseurl }}}}/watch-htmls-a/{html_file}" width="100%" height="800px" frameborder="0"></iframe>
+    <iframe src="{{{{ site.baseurl }}}}/watch-htmls-a/{name_of_html}" width="100%" height="800px" frameborder="0"></iframe>
 </div>
 """
 
@@ -631,11 +625,17 @@ for file in files:
     f"    - {signali[sig].get('desc', signali[sig]['longtxt'])}" if sig in signali else f"    - {sig}" 
     for sig in signals_for_md
     ])
+    signals_md = "| Signal | Jedinica | Opis |\n|---|---|---|\n" + "\n".join([
+        f"| **{sig}** | [{signali[sig]['unit']}] | {signali[sig]['desc']} |" 
+        if sig in signali else f"| **{sig}** | - | - |" 
+        for sig in signals_for_md
+        ])
+    
     number = file_name[-3:]
-    html_file = file_name+".html"
+    html_file_name = (file_name+".html").lower().replace("_", "-")
     
     # Popunjavanje templatea za markdown
-    md_content = md_template.format(number=number, html_file=html_file, signals_list=signals_md)
+    md_content = md_template.format(number=number, name_of_html=html_file_name, signals_list=signals_md)
 
     # Save to .md file
     md_filename = f"{file_name.lower()}.md".replace("_", "-")

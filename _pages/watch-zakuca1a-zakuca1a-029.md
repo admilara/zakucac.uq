@@ -13,8 +13,10 @@ Na grafovima niže prikazani su zapisi veličina dostavljeni od strane Končar I
 Sve veličine su preuzete iz dostavljene log datoteke `watch-zakuca1a-zakuca1a-029.log`.
                                
 Prikazane veličine su:
-    - Potvrda Q0 off ?
+| Signal | Jedinica | Opis |
+|---|---|---|
+
 
 <div class="wide-graph">
-    <iframe src="{{ site.baseurl }}/watch-htmls-a/Watch_ZAKUCA1A-ZAKUCA1A_029.html" width="100%" height="800px" frameborder="0"></iframe>
+    <iframe src="{{ site.baseurl }}/watch-htmls-a/watch-zakuca1a-zakuca1a-029.html" width="100%" height="800px" frameborder="0"></iframe>
 </div>
