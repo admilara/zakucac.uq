@@ -1,7 +1,7 @@
 theme: jekyll-theme-slate
 title: Obrada dostavljenih podataka - UQ regulacija na sučelju u HE Zakučac
 description:  
-remote_theme: pages-themes/slate@v0.2.0
+remote_theme: sighingnow/jekyll-gitbook
 plugins:
 - jekyll-remote-theme
 include:
