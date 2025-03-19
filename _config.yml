@@ -6,6 +6,8 @@ plugins:
 - jekyll-remote-theme
 include:
   - assets/css
+toc:
+    enabled: true
 collections:
   pages:
     output: true        # Makes pages render as actual output
